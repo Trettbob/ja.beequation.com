@@ -326,10 +326,15 @@ html:has(.bqh-panel:not([hidden])) .bq-peek,html.bqm-open .bq-bee,html:has(.bqh-
 <h2>目標とする基準</h2>
 <p><a href="https://www.w3.org/TR/WCAG22/" target="_blank" data-ext rel="noopener">ウェブコンテンツ・アクセシビリティ・ガイドライン（WCAG）2.2<span class="vh"> (新しいタブで開きます)</span></a>のレベルAA、およびAppleとGoogleのアプリ向けアクセシビリティガイドラインへの対応を目指しています。新機能の開発時に確認し、問題が見つかり次第修正します。</p>
 <h2>両方のアプリ</h2>
+<p>Beequation KidsとBeequation Proは、まだアプリストアで公開されていません。2026年11月1日に公開予定で、このセクションでは公開に向けて準備中のバージョンについて説明しています。</p>
 <ul>
-<li><b>スクリーンリーダー：</b>iPhone・iPadのVoiceOverとAndroidのTalkBackに対応しています。新しい問題を読み上げ、各六角形は数字と位置（例：「15、中央の行、左」）を伝えます。正解・不正解も音声で知らせます。</li>
-<li><b>文字の拡大：</b>端末の文字サイズ設定に合わせます。文字が切れないよう、ボタンも大きくなります。</li>
+<li><b>スクリーンリーダー：</b>iPhone・iPadのVoiceOverとAndroidのTalkBack向けに作られています。すべてのボタンにラベルがあり、新しい問題を読み上げ、各六角形は数字と位置（例：「15、中央の行、左」）を伝えます。正解・不正解も音声で知らせます。</li>
+<li><b>すべての数を読み上げる：</b>ハチの巣全体を1行ずつ読み上げるボタンです。</li>
+<li><b>結果の行：</b>盤面の下にあるテキストの行に直前のメッセージが残るので、スクリーンリーダーや点字ディスプレイの利用者があとから読み返せます。</li>
+<li><b>縦向きと横向き：</b>スマートフォンでもタブレットでも、どちらの向きでも使えます。</li>
+<li><b>文字の拡大：</b>端末の文字サイズ設定に合わせ、200％以上にも対応します。文字が切れないよう、ボタンも大きくなります。</li>
 <li><b>読みやすいフォント：</b>端末の標準フォントを使い、文字間隔を広げる設定があります。ディスレクシアのある方の中には、この表示のほうが読みやすい方もいます。</li>
+<li><b>ゆったり算数：</b>レベルと練習で使える設定です。六角形の数を減らし、数直線のヒントを出し、時計をなくします。Beequation Kidsでは、小さな数を点の絵でも表示します。</li>
 <li><b>音声コントロールとスイッチコントロール：</b>ボタンの名前は表示されている文字と一致し、すべてのボタンは44×44ポイント以上です。</li>
 <li><b>色だけに頼らない表示：</b>正解・不正解や結果は、色に加えてチェック、バツ、数字、形でも伝えます。</li>
 <li><b>コントラスト：</b>ライト・ダークの両モードでWCAGのコントラスト基準を満たします。高コントラスト設定では、各プレイヤーの色と輪郭を強調します。</li>
@@ -337,17 +342,25 @@ html:has(.bqh-panel:not([hidden])) .bq-peek,html.bqm-open .bq-bee,html:has(.bqh-
 <li><b>ダークモード：</b>ライト、ダーク、または端末の設定に合わせて選べます。</li>
 <li><b>視差効果を減らす：</b>端末で動きを減らす設定が有効な場合、控えめなアニメーションに自動で切り替わります。</li>
 <li><b>音は不要：</b>効果音と音楽は任意です。聞こえなくてもすべての操作ができます。</li>
-<li><b>やさしいフィードバック：</b>タップ時の軽い振動と、難しい問題へのヒントがあります。</li>
+<li><b>振動：</b>短く1回なら正解、短く2回ならもう一度、長く1回（iPhoneでは強めの1回）ならラウンド終了です。「振動」スイッチでオフにできます。</li>
 </ul>
 <h2>Beequation Pro</h2>
 <ul>
 <li><b>タイマーを非表示：</b>レベルと毎日のパズルでは時計を隠せるので、速さより正確さに集中できます。60秒のBlitzには常に制限時間があり、そのことを明示しています。</li>
+<li><b>Blitzの残り時間：</b>残り30秒、10秒、5秒の時点で残り時間を読み上げます。</li>
 </ul>
 <h2>Beequation Kids</h2>
 <ul>
 <li>タイマーやカウントダウンはありません。子どもが必要なだけ時間をかけられます。</li>
 <li>まだ文字を読む練習中の子どものために、Indieが端末の音声で問題やメッセージを読み上げられます。</li>
 <li>最初のゲームの前に、短い「あそび方」の案内でルールを絵とともに説明します。</li>
+</ul>
+<h2>ブラウザゲーム</h2>
+<p><a href="/play.html">ブラウザゲーム</a>にも、アプリと同じスクリーンリーダー用ラベル、「すべての数を読み上げる」ボタン、結果の行、振動パターン（対応端末のみ）、Blitzの残り時間の読み上げがあります。Kids、各レベル、毎日のパズルには時計がありません。さらに次の機能があります。</p>
+<ul>
+<li><b>キーボード操作：</b>Tabキーで盤面に入り、矢印キーで六角形を移動し、EnterキーかSpaceキーで選びます。Rキーですべての数を読み上げます。</li>
+<li><b>横向きのレイアウト：</b>スマートフォンやタブレットを横にすると、盤面とボタンの配置が変わります。</li>
+<li><b>ヘルプ：</b>操作と設定を説明する専用のヘルプがあります。</li>
 </ul>
 <h2>サイトの読みやすさの設定</h2>
 <p>ページの上部かスマートフォンのメニューでアクセシビリティを開きます。文字の大きさを125%か150%にする、読みやすいフォントにする、間隔を広げる、コントラストを上げる、アニメーションを止める設定ができます。変更はすぐに反映されます。リセットで元に戻せます。端末で動きを減らす設定をしていると、最初からアニメーションが止まります。</p>
@@ -359,21 +372,32 @@ html:has(.bqh-panel:not([hidden])) .bq-peek,html.bqm-open .bq-bee,html:has(.bqh-
 <li>キーボードで操作でき、フォーカスの枠が見えます。「コンテンツへ移動」リンクもあります。</li>
 <li>文字はライト・ダークの両モードでWCAGのコントラスト基準を満たし、ページは端末の表示設定に従います。</li>
 <li>画像やイラストには代替テキストがあります。</li>
+<li>外部サイトへのリンクは新しいタブで開き、そのことをスクリーンリーダーにも伝えます。</li>
 <li>飛ぶハチは装飾です。スクリーンリーダーには読み上げられず、一度に5秒を超えて表示されません。動きを減らす設定が有効な場合は表示されません。</li>
-<li>ブラウザゲームのラベルと設定はアプリと同じです。</li>
 </ul>
 <h2>算数プリントと印刷用教材</h2>
-<p>すべてのプリントは、ウェブページ、標準PDF、大きな文字のPDF、読みやすいPDFでご利用いただけます。</p>
-<p>PDFにはタグを付け、情報を伝える図には代替テキストを用意しています。</p>
+<p>すべてのプリントは、ウェブページと4種類のPDF（標準、大きな文字、読みやすい版、立体コピー用紙向けの触図）でご利用いただけます。</p>
+<p>PDFにはタグを付け、情報を伝える図には代替テキストを用意し、アクセシビリティ規格PDF/UAに沿って確認しています。</p>
+<p>日本語以外のすべての言語で、プリントの点字ファイルも用意しています。</p>
 <p><a href="/learn/braille.html">点字と触図について</a></p>
+<h2>テストの方法</h2>
+<ul>
+<li>すべての英語ページと、ほかの言語のページの一部で、自動のアクセシビリティチェック（axe-core）を行っています。</li>
+<li>すべてのPDFをveraPDFで確認しています。</li>
+<li>幅320ピクセルの画面、200％の文字サイズ、広めの文字間隔でレイアウトを確認しています。</li>
+<li>アプリのすべての画面を、標準の2倍と3.2倍の文字サイズで、縦向きと横向きの両方で表示して確認しています。</li>
+</ul>
 <h2>現在の制限</h2>
 <ul>
-<li>アプリは現在、縦向きのみ対応しています。特にiPad向けに横向きへの対応を予定しています。</li>
+<li>実際のスマートフォンでのVoiceOverやTalkBack、点字ディスプレイを使ったアプリのテストはまだ行っていません。WindowsのNVDAやJAWSを使ったウェブサイトのテストもまだです。</li>
+<li>全盲の方や盲ろうの方で、テストにご協力いただける方を探しています。ご協力いただける場合は、<a href="/support.html">サポートページ</a>からご連絡ください。</li>
+<li>点字ファイルはコンピューターで作成しており、まだ校正されていません。</li>
 <li>ウェブサイトとアプリの翻訳は、まだすべてが母語話者による確認を受けているわけではありません。</li>
+<li>このウェブサイトのヒンディー語版とインド英語版は、新しく追加したものです。</li>
 </ul>
 <h2>問題をお知らせください</h2>
 <p>使いにくい箇所や、別の形式で必要な情報がある場合は、<a href="/support.html">サポートページ</a>からお知らせください。2営業日以内の返信を目指し、修正方法と時期をご案内します。</p>
-<p>この声明の最終確認日は2026年10月12日です。</p>
+<p>この声明の最終確認日は2026年10月13日です。</p>
 </div></main><!--footer--><div class="wrap"><footer class="bqf"><div class="bqf-card"><div class="bqf-brand"><a class="bqf-logo" href="/"><img src="/assets/hexabee.svg" width="44" height="44" alt="">Beequation</a><p class="bqf-tag">ほかの2つの数からできる数を見つけよう。</p><a class="bqf-today" href="/today/"><i aria-hidden="true"></i>今日のパズル</a></div><nav class="bqf-cols" aria-label="Beequation"><div><p class="bqf-h">遊ぶ</p><ul><li><a href="/play.html">オンラインでプレイ</a></li><li><a href="/how-to-play.html">遊び方</a></li><li><a href="/today/">今日のパズル</a></li></ul></div><div><p class="bqf-h">学ぶ</p><ul><li><a href="/learn/">「学ぶ」トップ</a></li><li><a href="/teachers.html">先生向けの無料パズルパック</a></li><li><a href="/blog/">ブログ</a></li></ul></div><div><p class="bqf-h">ヘルプと情報</p><ul><li><a href="/about.html">Beequationについて</a></li><li><a href="/support.html">サポート</a></li><li><a href="/privacy.html">プライバシー</a></li><li><a href="/terms.html">利用規約</a></li><li><a href="/accessibility.html">アクセシビリティ</a></li><li><a href="/easy-read/how-to-play.html">やさしい説明</a></li></ul></div></nav><div class="bqf-social"><p class="bqf-h">ハチの巣をフォロー</p><ul class="bqf-comb"><li><a href="https://www.instagram.com/beequationapp" target="_blank" rel="noopener" aria-label="Instagram (新しいタブで開きます)" title="Instagram"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.3 6.7h.01"/></svg></a></li><li><a href="https://www.tiktok.com/@beequationapp" target="_blank" rel="noopener" aria-label="TikTok (新しいタブで開きます)" title="TikTok"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3.5v11a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3.5c.4 2.6 2.3 4.4 5 4.6"/></svg></a></li><li><a href="https://www.youtube.com/@beequationapp" target="_blank" rel="noopener" aria-label="YouTube (新しいタブで開きます)" title="YouTube"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.2 9.3v5.4l4.6-2.7z" fill="currentColor"/></svg></a></li><li><a href="https://www.twitch.tv/beequationapp" target="_blank" rel="noopener" aria-label="Twitch (新しいタブで開きます)" title="Twitch"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 3.5h15v10l-4.5 4.5h-3.5l-3 3v-3H4.5z"/><path d="M11 8v4M15.5 8v4"/></svg></a></li><li><a href="https://www.facebook.com/beequationapp" target="_blank" rel="noopener" aria-label="Facebook (新しいタブで開きます)" title="Facebook"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3.5H14a4 4 0 0 0-4 4V10H7.5v3.5H10v7h3.5v-7h2.6l.6-3.5h-3.2V8a1 1 0 0 1 1-1h1z"/></svg></a></li><li><a href="https://www.linkedin.com/company/beequationapp" target="_blank" rel="noopener" aria-label="LinkedIn (新しいタブで開きます)" title="LinkedIn"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3.5"/><path d="M7.8 10.5v6M7.8 7.4h.01M11.5 16.5v-6M11.5 13.2c0-1.6 1-2.8 2.5-2.8s2.3 1 2.3 2.7v3.4"/></svg></a></li><li><a href="https://x.com/beequationapp" target="_blank" rel="noopener" aria-label="X (新しいタブで開きます)" title="X"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h4.2l11.8 16h-4.2z"/><path d="M19.6 4l-6.6 7.3M4.4 20l6.6-7.3"/></svg></a></li><li><a href="https://bsky.app/profile/did:plc:v7vs5upct4ovtvhrjaq3fzgx" target="_blank" rel="noopener" aria-label="Bluesky (新しいタブで開きます)" title="Bluesky"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 11.3C10.5 8.3 6.9 4.5 4.8 4.5 3.6 4.5 3 5.3 3 6.7c0 1.2.6 4.4 1.4 5.3 1.2 1.3 3.3 1.3 4.6 1-2.4.8-3.6 2.3-2.2 4 1.7 2 3.8 1 5.2-1.9 1.4 2.9 3.5 3.9 5.2 1.9 1.4-1.7.2-3.2-2.2-4 1.3.3 3.4.3 4.6-1 .8-.9 1.4-4.1 1.4-5.3 0-1.4-.6-2.2-1.8-2.2-2.1 0-5.7 3.8-7.2 6.8z"/></svg></a></li><li><a href="https://www.threads.com/@beequationapp" target="_blank" rel="noopener" aria-label="Threads (新しいタブで開きます)" title="Threads"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.6"/><path d="M15.6 9v4.2a2.6 2.6 0 0 0 5.2 0V12a8.8 8.8 0 1 0-3.4 6.9"/></svg></a></li><li><a href="https://www.pinterest.com/beequationapp/" target="_blank" rel="noopener" aria-label="Pinterest (新しいタブで開きます)" title="Pinterest"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 20.6l2.2-9"/><path d="M11 15.6c3 .8 5.6-1.3 5.6-4.3 0-2.6-2.1-4.4-4.7-4.4-3 0-5 2.1-5 4.6 0 1.1.4 2 1.1 2.6"/></svg></a></li></ul><img class="bqf-bee" src="/assets/hexabee.svg" width="46" height="46" alt="" loading="lazy"></div></div><p class="bqf-legal">Beequationは、イングランドおよびウェールズで登記されたTrett Labs Limited（会社番号17310137）が運営しています。登記上の住所：The 1812 Building, Wheatley Park, Mirfield, West Yorkshire, WF14 8HE, United Kingdom。お問い合わせ：<a href="/support.html">サポートページ</a>。© 2026 Trett Labs Limited</p></footer></div><!--/footer-->
 <!--nav--><script>// Measure the full, unwrapped pill, including font/spacing preferences and translated labels.
 window.bqHeaderFits=function(h){
